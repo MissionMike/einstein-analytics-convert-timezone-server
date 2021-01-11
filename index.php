@@ -144,8 +144,8 @@ $ret_data['formula'] .= 'end';
 /**
  * Logging to see if anyone uses this thing...
  */
-$log = json_encode($vars);
-error_log($log);
+// $log = json_encode($vars);
+// error_log($log);
 
 echo json_encode($ret_data);
 
